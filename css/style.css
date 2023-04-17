@@ -59,7 +59,11 @@ a.active{
     background-color:rgb(251, 227, 195) ; 
 }
 /* body css */
-
+.loopvideo{
+    display: flex;
+    align-items: center;
+    margin-left: 30%;
+}
 .div1 img{
     max-height: 100%;
     max-width: 100%;
@@ -149,6 +153,9 @@ form input{
         display: block;
         padding: 0;
     }
+    .loopvideo{
+        margin-left: 15%;
+    }
   }
   @media screen and (max-width: 458px){
     #nav-list {
@@ -167,7 +174,9 @@ form input{
         padding: 0%;
         padding-left: 5% ;
     }
-    
+    .loopvideo{
+        all: initial;
+    }
     
   }
   @media screen and (max-width: 1200px){
@@ -177,6 +186,12 @@ form input{
             height: 65%;
             
         }
+  }
+  @media screen and (max-width: 966px) {
+   
+    .loopvideo{
+        margin-left: 15%;
+    }
   }
 footer{
     background-color: rgb(254, 237, 214);
